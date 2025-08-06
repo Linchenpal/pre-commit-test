@@ -1,5 +1,9 @@
-def greet(name: int) -> str:
-    print("Hello, " + name + "!")
-    return 42
+# test_ci.py
 
-greet("world")
+def greet(name: str) -> str:
+    message = "Hello, " + name + "!"
+    print(message)
+    return message
+
+if __name__ == "__main__":
+    greet("world")
