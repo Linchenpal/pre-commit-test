@@ -5,5 +5,5 @@ def greet(name: str) -> str:
     print(message)
     return message
 
-
-greet("world")
+if __name__ == "__main__":
+    greet("world")
